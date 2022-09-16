@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'MCAPS-Hybrid-REQ-42137-2022-carlobinda'
+    azureSubscription: 'aml_learning_sp'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
